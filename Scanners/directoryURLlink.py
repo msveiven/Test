@@ -3,7 +3,7 @@
 import sys
 import os
 
-f = open('index.htm', 'r')
+f = open('index.html', 'r')
 
 f.seek(0)
 s = f.read()
@@ -13,7 +13,7 @@ PathLink = Path[1]
 print(str(PathLink))
 f.close()
 
-f = open('index.htm', 'w')
+f = open('index.html', 'w')
 f.write(R[0])
 f.write('<p>\n')
 f.write('<A HREF = "https://msveiven.github.io'+str(PathLink)+'/'+str(sys.argv[1])+'">'+str(sys.argv[1])+'</A>')
