@@ -89,7 +89,7 @@ var STYLE_PREFIX = 'wsite';
 	(function(jQuery){
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
-				[{"id":"742285863944111554","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"999778504732916289","title":"Download","url":"download.html","target":"","nav_menu":false,"nonclickable":false},{"id":"376036137840810968","title":"Scanners","url":"https://msveiven.github.io/Test/Scanners","target":"","nav_menu":false,"nonclickable":false},{"id":"900434108644922247","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false}],
+				[{"id":"742285863944111554","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"999778504732916289","title":"Download","url":"download.html","target":"","nav_menu":false,"nonclickable":false},{"id":"376036137840810968","title":"Standard protocols","url":"standard-protocols.html","target":"","nav_menu":false,"nonclickable":false},{"id":"900434108644922247","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false}],
 				"742285863944111554",
 				'',
 				'active',
