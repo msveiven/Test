@@ -9,11 +9,13 @@ owd = os.environ['WIKIPROTPATH']+'Scanners/'
 os.chdir(owd)
 directoryList1 = next(os.walk('.'))[1]
 #print(directoryList1)
-import webpageCreator
 
-if len(sys.argv) != 1:
-    print('No argument required. Try again')
-    sys.exit()
+import webpageCreator
+print(sys.argv[1])
+if len(sys.argv) > 1:
+    link = sys.argv[1]
+else:
+    link = 'https://msveiven.github.io'
 
 #url = sys.argv[1]
 #print(sys.argv[1])

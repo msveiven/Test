@@ -22,11 +22,11 @@ def webpage(directory):
 
     space_to_underscore.spaceToUnderscore()
 
-    print('Now checking for .xml files to create tables for')
+#    print('Now checking for .xml files to create tables for')
 
-    import ProtParser
+#   import ProtParser
 
-    ProtParser.runParser()
+#    ProtParser.runParser()
 
     print('Now adding the links to the index file')
 
